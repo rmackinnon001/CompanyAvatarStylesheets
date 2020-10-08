@@ -1,0 +1,14 @@
+/* Dialog reply history */
+.ky-classic-simplicity clevertar-chat .ky-bubble-block.ky-user .ky-msg {
+    background-color: #F3C430 !important;
+}
+
+.ky-classic-simplicity clevertar-chat .ky-bubble-block.ky-user .ky-msg {
+    color: black !important;
+    border-color: #F3C430 !important;
+}
+
+/* Dialog reply hover */
+.ky-classic-simplicity clevertar-chat .ky-chat-response button:hover {
+    background-color: rgba(243, 198, 48, 0.233) !important;
+}
