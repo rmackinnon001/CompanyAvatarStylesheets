@@ -5,6 +5,11 @@
     background-position: center !important;
 }
 
+.ky-classic-ocean-front clevertar-chat .ky-loading {
+    background: #1895b4d1 !important;
+    color: #2a3088 !important;
+}
+
 /* Scroll Bar */
 .ky-classic-ocean-front clevertar-chat ::-webkit-scrollbar-track {
     background-color: #1895b4 !important;
@@ -28,13 +33,9 @@ clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-response {
     color: #fff !important;
 }
 
-/* Avatar Action Tags */
-.ky-classic-ocean-front clevertar-chat .ky-bubble-block .ky-name {
+/* Avatar Name/Action Tags */
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block .ky-name, .ky-classic-ocean-front clevertar-chat .ky-chat-history .ky-agent-mode {
     color: #2a3088 !important;
-}
-
-.ky-classic-ocean-front clevertar-chat .ky-chat-history .ky-agent-mode {
-    color: red !important;
 }
 
 /* Avatar Dialog History */
