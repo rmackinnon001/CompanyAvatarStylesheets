@@ -8,7 +8,32 @@
     border-color: #F3C430 !important;
 }
 
+.ky-classic-simplicity clevertar-chat .ky-bubble-block.ky-user .ky-msg:after {
+    border-top-color: #F3C430 !important;
+    border-left-color: #F3C430 !important;
+}
+
+.ky-classic-simplicity clevertar-chat .ky-bubble-block.ky-user .ky-msg:after, .ky-classic-simplicity clevertar-chat .ky-bubble-block.ky-user .ky-msg:before {
+    border-top-color: #F3C430 !important;
+    border-left-color: #F3C430 !important;
+}
+
 /* Dialog reply hover */
 .ky-classic-simplicity clevertar-chat .ky-chat-response button:hover {
     background-color: rgba(243, 198, 48, 0.233) !important;
+}
+
+/* Mute button  */
+.ky-classic-simplicity clevertar-chat .ky-mute>button {
+    color: #241571 !important;
+}
+
+/* Restart button */
+.ky-classic-simplicity clevertar-chat .ky-header button.ky-restart {
+    color: #241571 !important;
+}
+
+/* Close button */
+.ky-classic-simplicity clevertar-chat .ky-header button.ky-close {
+    color: #241571 !important;
 }
