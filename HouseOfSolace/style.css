@@ -11,12 +11,9 @@
     color: #2a3088 !important;
 }
 
-.ky-classic-ocean-front clevertar-chat .ky-chat-history .ky-agent-mode {
-    color: #FFF !important;
-}
-
 .ky-classic-ocean-front clevertar-chat .ky-chat-history .ky-agent-mode.ky-agent-mode-loading {
     background: #477fce !important;
+    color: #FFF !important;
 }
 
 /* Scroll Bar */
