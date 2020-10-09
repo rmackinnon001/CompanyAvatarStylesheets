@@ -5,7 +5,7 @@
 /* Background Logo */
 @media (min-width:500px) {
     clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-history {
-        background: url('https://rmackinnon001.github.io/CompanyAvatarStylesheets/HouseOfSolace/Media/SolaceLogo.png'), #c3f3c1 !important;
+        background: url('https://rmackinnon001.github.io/CompanyAvatarStylesheets/HouseOfSolace/Media/SolaceLogo.png') !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
     }
