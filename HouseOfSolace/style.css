@@ -40,6 +40,7 @@ clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-response {
 
 .ky-classic-ocean-front clevertar-chat .ky-chat-response button:hover {
     background: #afafaf !important;
+    color: #fff !important;
 }
 
 /* Avatar Name/Action Tags */
