@@ -39,7 +39,7 @@ clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-response {
 }
 
 .ky-classic-ocean-front clevertar-chat .ky-chat-response button:hover {
-    background: #c9c9c9 !important;
+    background: #afafaf !important;
 }
 
 /* Avatar Name/Action Tags */
@@ -60,13 +60,13 @@ clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-response {
 
 /* Customer Dialog History */
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg {
-    background: #c9c9c9d1 !important;
-    border-color: #c9c9c9 !important;
+    background: #afafafd1 !important;
+    border-color: #afafaf !important;
 }
 
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg:after, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg:before {
-    border-top-color: #c9c9c9 !important;
-    border-left-color: #c9c9c9 !important;
+    border-top-color: #afafaf !important;
+    border-left-color: #afafaf !important;
 }
 
 /* Restart Button */
