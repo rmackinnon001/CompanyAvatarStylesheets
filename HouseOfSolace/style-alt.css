@@ -1,0 +1,84 @@
+.ky-classic-ocean-front clevertar-chat .ky-content {
+    background: #9074c3 !important;
+}
+
+/* Background Logo */
+@media (min-width:500px) {
+    clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-history {
+        background: url('https://rmackinnon001.github.io/CompanyAvatarStylesheets/HouseOfSolace/Media/SolaceLogo.png') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+}
+
+/* Loading Tabs */
+.ky-classic-ocean-front clevertar-chat .ky-loading {
+    background: #1895b4d1 !important;
+    color: #2a3088 !important;
+}
+.ky-classic-ocean-front clevertar-chat .ky-chat-history .ky-agent-mode.ky-agent-mode-loading {
+    background: #477fced1 !important;
+}
+
+/* Scroll Bar */
+.ky-classic-ocean-front clevertar-chat ::-webkit-scrollbar-track {
+    background-color: #477fce !important;
+}
+
+.ky-classic-ocean-front clevertar-chat ::-webkit-scrollbar-thumb {
+    background-color: #2a3088 !important;
+}
+
+/* Chat Response Box */
+clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-response {
+    background-color: #1895b4 !important;
+}
+
+.ky-classic-ocean-front clevertar-chat .ky-chat-response button {
+    border-color: #2a3088 !important;
+}
+
+.ky-classic-ocean-front clevertar-chat .ky-chat-response button:hover {
+    background: #afafaf !important;
+}
+
+/* Avatar Name/Action Tags */
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block .ky-name, .ky-classic-ocean-front clevertar-chat .ky-chat-history .ky-agent-mode {
+    color: #2a3088 !important;
+}
+
+/* Avatar Dialog History */
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg, clevertar-chat .ky-bubble-block .ky-media.ky-bottom {
+    background: #6493d5d1 !important;
+    border-color: #477fce !important;
+}
+
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:after, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:before {
+    border-top-color: #477fce !important;
+    border-left-color: #477fce !important;
+}
+
+/* Customer Dialog History */
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg {
+    background: #afafafd1 !important;
+    border-color: #afafaf !important;
+}
+
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg:after, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg:before {
+    border-top-color: #afafaf !important;
+    border-left-color: #afafaf !important;
+}
+
+/* Restart Button */
+clevertar-chat .ky-embed-mode .ky-controls button {
+    background-color: #c3f3c1 !important;
+    border-color: #2a3088 !important;
+    color: #2a3088 !important;
+}
+
+/* Mute Button */
+.ky-classic-ocean-front clevertar-chat .ky-mute>button {
+    background: #4fd1e1 !important;
+    border-color: #2a3088 !important;
+    color: #2a3088 !important;
+}
