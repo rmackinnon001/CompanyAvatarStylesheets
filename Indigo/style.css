@@ -45,7 +45,7 @@ clevertar-chat .ky-embed-mode .ky-controls button {
 }
 
 /* Mute Button */
-.ky-classic-simplicity clevertar-chat .ky-mute>button {
+.ky-classic-simplicity clevertar-chat .ky-mute>button, .ky-classic-simplicity clevertar-chat .ky-header button.ky-restart, .ky-classic-simplicity clevertar-chat .ky-header button.ky-close {
     background: #fff !important;
     color: #0343e4 !important;
 }
