@@ -35,13 +35,13 @@
 
 /* Dialog reply hover */
 .ky-classic-simplicity clevertar-chat .ky-chat-response button:hover {
-    background-color: rgba(243, 198, 48, 0.233) !important;
+    background-color: #f3c6303b !important;
 }
 
 /* Default Buttons */
 clevertar-chat .ky-embed-mode .ky-controls button {
     background: #0343e4 !important;
-    border-color: #68c7e4 !important;
+    border-color: #676767 !important;
 }
 
 /* Mute Button */
