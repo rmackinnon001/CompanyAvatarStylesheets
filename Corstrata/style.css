@@ -62,7 +62,7 @@ clevertar-chat .ky-bubble-block .ky-name {
     display: none !important;
 }
 
-clevertar-chat .ky-bubble-block.ky-agent .ky-msg {
+clevertar-chat .ky-bubble-block.ky-agent .ky-msg, clevertar-chat .ky-bubble-block .ky-media.ky-bottom {
     background: #ffffffd1 !important;
     border-color: #5a595e !important;
 }
