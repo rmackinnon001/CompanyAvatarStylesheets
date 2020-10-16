@@ -5,8 +5,8 @@ clevertar-chat .ky-content {
 @media (min-width:501px) {
     clevertar-chat .ky-chat-history {
         background: url('https://rmackinnon001.github.io/CompanyAvatarStylesheets/Corstrata/Media/CorstrataLogo.png') !important;
-        background-repeat: no-repeat;
-        background-position: center;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
     }
 }
 
@@ -22,11 +22,11 @@ clevertar-chat .ky-bubble-block.ky-user .ky-msg {
 }
 
 clevertar-chat .ky-bubble-block.ky-user .ky-msg:before {
-    border-color: #f18520d1 !important;
+    border-color: #f18520 transparent transparent #f18520 !important;
 }
 
 clevertar-chat .ky-chat-response button {
-    color: #5a595e;
+    color: #5a595e !important;
 }
 
 clevertar-chat .ky-chat-response button:hover {
