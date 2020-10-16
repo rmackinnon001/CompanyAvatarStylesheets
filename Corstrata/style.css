@@ -4,11 +4,25 @@ clevertar-chat .ky-content {
 }
 
 @media (min-width:501px) {
+    /* Avatar Placement */
+    #renderCanvas {
+        right: 20px;
+    }
+
     clevertar-chat .ky-chat-history {
         background: url('https://rmackinnon001.github.io/CompanyAvatarStylesheets/Corstrata/Media/CorstrataLogo.png') !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
     }
+}
+
+/* Loading Tabs */
+clevertar-chat .ky-loading {
+    background: #1ba5c0d1 !important;
+    color: #ffffff !important;
+}
+clevertar-chat .ky-chat-history .ky-agent-mode.ky-agent-mode-loading {
+    background: #1ba5c0 !important;
 }
 
 /* Wrapper */
@@ -58,6 +72,7 @@ clevertar-chat .ky-bubble-block.ky-agent .ky-msg:before, clevertar-chat .ky-bubb
 clevertar-chat .ky-chat-response button {
     color: #5a595e !important;
     border-color: #1ba5c0 !important;
+    box-shadow: 0 0 0 1px #1ba5c0 !important;
 }
 
 clevertar-chat .ky-chat-response button:hover {
