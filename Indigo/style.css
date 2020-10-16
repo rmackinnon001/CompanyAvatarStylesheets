@@ -40,12 +40,12 @@
 
 /* Default Buttons */
 clevertar-chat .ky-embed-mode .ky-controls button {
-    background: #014bfd !important;
-    border-color: #c5c5c5 !important;
+    background: #0343e4 !important;
+    border-color: #68c7e4 !important;
 }
 
 /* Mute Button */
 .ky-classic-simplicity clevertar-chat .ky-mute>button {
     background: #fff !important;
-    color: #014bfd !important;
+    color: #0343e4 !important;
 }
