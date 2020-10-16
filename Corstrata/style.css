@@ -1,7 +1,35 @@
 clevertar-chat .ky-content {
-    background-image: url('https://i.imgur.com/vCR5Nd8.jpg') !important;
+    background-color: #f5f5f5 !important;
 }
 
+@media (min-width:501px) {
+    clevertar-chat .ky-chat-history {
+        background: url('https://rmackinnon001.github.io/CompanyAvatarStylesheets/Corstrata/Media/CorstrataLogo.png') !important;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+/* https://i.imgur.com/vCR5Nd8.jpg 
+*/
+
 clevertar-chat .ky-bubble-block.ky-agent .ky-msg {
-    background: #ffffffad !important;
+    background: #ffffffd1 !important;
+}
+
+clevertar-chat .ky-bubble-block.ky-user .ky-msg {
+    background-color: #f18520d1 !important;
+}
+
+clevertar-chat .ky-bubble-block.ky-user .ky-msg:before {
+    border-color: #f18520d1 !important;
+}
+
+clevertar-chat .ky-chat-response button {
+    color: #5a595e;
+}
+
+clevertar-chat .ky-chat-response button:hover {
+    border-color: #f18520 !important;
+    color: #fff;
 }
