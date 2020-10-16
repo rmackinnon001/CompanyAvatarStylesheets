@@ -3,7 +3,7 @@
     background: #f5f5f5 !important;
 }
 
-@media (min-width:500px) {
+@media (min-width:501px) {
     clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-history {
         background: url(https://rmackinnon001.github.io/CompanyAvatarStylesheets/Indigo/media/indigoLogo1.png) !important;
         background-repeat: no-repeat !important;
