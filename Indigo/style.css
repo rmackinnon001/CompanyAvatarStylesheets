@@ -3,15 +3,6 @@
     background: #f5f5f5 !important;
 }
 
-/* Background Logo */
-@media (max-width:499px) {
-    .ky-classic-simplicity clevertar-chat .ky-content {
-        background: url(https://rmackinnon001.github.io/CompanyAvatarStylesheets/Indigo/media/indigoLogo1.png), #f5f5f5 !important;
-        background-repeat: no-repeat !important;
-        background-position: center !important;
-    }
-}
-
 @media (min-width:500px) {
     clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-history {
         background: url(https://rmackinnon001.github.io/CompanyAvatarStylesheets/Indigo/media/indigoLogo1.png) !important;
@@ -47,22 +38,14 @@
     background-color: rgba(243, 198, 48, 0.233) !important;
 }
 
-/* Buttons */
+/* Default Buttons */
 clevertar-chat .ky-embed-mode .ky-controls button {
     background: #241571 !important;
-    border-color: #F3C430 !important;
+    border-color: #c5c5c5 !important;
 }
 
-/*
+/* Mute Button */
 .ky-classic-simplicity clevertar-chat .ky-mute>button {
-    background: #241571 !important;
+    background: #fff !important;
     color: #241571 !important;
 }
-
-.ky-classic-simplicity clevertar-chat .ky-header button.ky-restart {
-    color: #241571 !important;
-}
-
-.ky-classic-simplicity clevertar-chat .ky-header button.ky-close {
-    color: #241571 !important;
-} */
