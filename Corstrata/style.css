@@ -1,4 +1,13 @@
-/* Backgrounds */
+/* Icon Background */
+clevertar-chat .ky-trigger {
+    background: #1ba5c0 !important;
+}
+
+clevertar-chat .ky-trigger .ky-anim-container {
+    background: #1ba5c0 !important;
+}
+
+/* Backgrounds Chat*/
 clevertar-chat .ky-content {
     background-color: #f5f5f5 !important;
 }
@@ -18,8 +27,8 @@ clevertar-chat .ky-content {
 
 /* Loading Tabs */
 clevertar-chat .ky-loading {
-    background: #1ba5c0d1 !important;
-    color: #ffffff !important;
+    background: #ffffff !important;
+    color: #1ba5c0 !important;
 }
 clevertar-chat .ky-chat-history .ky-agent-mode.ky-agent-mode-loading {
     background: #1ba5c0 !important;
