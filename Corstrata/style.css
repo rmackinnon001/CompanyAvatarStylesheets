@@ -11,6 +11,11 @@ clevertar-chat .ky-content {
     }
 }
 
+/* Wrapper */
+clevertar-chat .ky-wrapper {
+    border-color: #1ba5c0 !important;
+}
+
 /* Header */
 clevertar-chat .ky-header {
     background: #1ba5c0 !important;
@@ -36,26 +41,23 @@ clevertar-chat .ky-bubble-block .ky-name {
 
 clevertar-chat .ky-bubble-block.ky-agent .ky-msg {
     background: #ffffffd1 !important;
-    border-color: #ffffff !important;
-}
-
-clevertar-chat .ky-bubble-block.ky-agent .ky-msg:before, clevertar-chat .ky-bubble-block.ky-agent .ky-msg:after {
-    border-color: #ffffff transparent transparent #ffffff !important;
+    border-color: #5a595e !important;
 }
 
 /* User Response History */
 clevertar-chat .ky-bubble-block.ky-user .ky-msg {
     background-color: #f18520d1 !important;
-    border-color: #f18520 !important;
+    border-color: #5a595e !important;
 }
 
-clevertar-chat .ky-bubble-block.ky-user .ky-msg:before, clevertar-chat .ky-bubble-block.ky-user .ky-msg:after {
-    border-color: #f18520 transparent transparent #f18520 !important;
+clevertar-chat .ky-bubble-block.ky-agent .ky-msg:before, clevertar-chat .ky-bubble-block.ky-agent .ky-msg:after, clevertar-chat .ky-bubble-block.ky-user .ky-msg:before, clevertar-chat .ky-bubble-block.ky-user .ky-msg:after {
+    border-color: #5a595e transparent transparent #5a595e !important;
 }
 
 /* Response Buttons */
 clevertar-chat .ky-chat-response button {
     color: #5a595e !important;
+    border-color: #1ba5c0 !important;
 }
 
 clevertar-chat .ky-chat-response button:hover {
