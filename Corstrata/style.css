@@ -14,8 +14,8 @@ clevertar-chat .ky-content {
 
 @media (min-width:501px) {
     /* Avatar Placement */
-    #renderCanvas {
-        right: 20px;
+    clevertar-chat .ky-wrapper .ky-content .ky-character-wrapper {
+        left: 135% !important;
     }
 
     clevertar-chat .ky-chat-history {
