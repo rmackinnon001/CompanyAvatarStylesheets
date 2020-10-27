@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 /* Background Logo */
-@media (min-width:500px) {
+@media (min-width:517px) {
     clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-history {
         background: url('https://rmackinnon001.github.io/CompanyAvatarStylesheets/SoulFire/Media/SoulFireLogo.png') !important;
         background-repeat: no-repeat !important;
