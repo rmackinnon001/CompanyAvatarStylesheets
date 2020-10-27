@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
-.ky-classic-purpley clevertar-chat .ky-content {
-    background-image: url('https://i.imgur.com/BHvtbnK.jpg') !important;
+/* Background Logo */
+@media (min-width:500px) {
+    clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-history {
+        background: url('https://rmackinnon001.github.io/CompanyAvatarStylesheets/SoulFire/Media/SoulFireLogo.png') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
 }
 
 .ky-classic-purpley clevertar-chat .ky-bubble-block.ky-agent .ky-msg {
