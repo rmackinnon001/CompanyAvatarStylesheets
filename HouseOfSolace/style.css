@@ -73,10 +73,15 @@ clevertar-chat .ky-bubble-block .ky-msg{
     background: #244a6df3 !important;
     border-color: #244a6d !important;
 }
-
+/* 
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:link, clevertar-chat .ky-bubble-block .ky-media.ky-bottom a:link, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:active, clevertar-chat .ky-bubble-block .ky-media.ky-bottom a:active {
     color: #c3f3c1 !important;
+} */
+
+a:link, a:active {
+    color: #c3f3c1 !important;
 }
+
 
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:after, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:before {
     border-top-color: #244a6d !important;
