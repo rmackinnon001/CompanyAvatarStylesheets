@@ -108,7 +108,7 @@ clevertar-chat .ky-header .ky-title h1 {
 
 /* Header Button, Restart Button, & Mute Button */
 clevertar-chat .ky-header button, clevertar-chat .ky-embed-mode .ky-controls button, .ky-classic-ocean-front clevertar-chat .ky-mute>button {
-    background: #a68fd1 !important;
+    background: #9776d3 !important;
     border-color: #2a3088 !important;
     color: #2a3088 !important;
 }
