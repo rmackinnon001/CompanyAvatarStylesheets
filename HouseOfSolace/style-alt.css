@@ -71,8 +71,9 @@ clevertar-chat .ky-bubble-block .ky-msg{
 
 /* Avatar Dialog History */
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg, clevertar-chat .ky-bubble-block .ky-media.ky-bottom {
-    background: #6493d5d1 !important;
+    background: #f5f5f5e8 !important;
     border-color: #477fce !important;
+    color: #000 !important;
 }
 
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:after, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:before {
@@ -82,13 +83,14 @@ clevertar-chat .ky-bubble-block .ky-msg{
 
 /* Customer Dialog History */
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg {
-    background: #757575d1 !important;
-    border-color: #757575 !important;
+    background: #afafafe8 !important;
+    border-color: #afafaf !important;
+    color: #000 !important;
 }
 
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg:after, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg:before {
-    border-top-color: #757575 !important;
-    border-left-color: #757575 !important;
+    border-top-color: #afafaf !important;
+    border-left-color: #afafaf !important;
 }
 
 /* Header */
