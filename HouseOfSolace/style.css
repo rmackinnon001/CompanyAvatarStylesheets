@@ -74,7 +74,7 @@ clevertar-chat .ky-bubble-block .ky-msg{
     border-color: #244a6d !important;
 }
 
-.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:link, clevertar-chat .ky-bubble-block .ky-media.ky-bottom {
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:link, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:active , clevertar-chat .ky-bubble-block .ky-media.ky-bottom {
     color: #c3f3c1 !important;
 }
 
