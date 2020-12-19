@@ -48,14 +48,38 @@ clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-response {
     color: #2a3088 !important;
 }
 
+clevertar-chat .ky-bubble-block .ky-msg{
+    font-size: unset !important;
+}
+
+@media screen and (min-width: 320px) {
+    clevertar-chat {
+        font-size: calc(13px + 1*(100vw - 320px)/880) !important;
+    }
+}
+@media screen and (max-width: 500px) and (min-width: 320px) {
+    clevertar-chat {
+        font-size: calc(16px + 1*(100vw - 320px)/880) !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    clevertar-chat {
+        font-size: 16px !important;
+    }
+}
+
 /* Avatar Dialog History */
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg, clevertar-chat .ky-bubble-block .ky-media.ky-bottom {
     background: #244a6de8 !important;
     border-color: #244a6d !important;
 }
 
-.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:link, clevertar-chat .ky-bubble-block .ky-media.ky-bottom:link {
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:link, clevertar-chat .ky-bubble-block .ky-media.ky-bottom a:link {
     color: #c3f3c1 !important;
+}
+
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:visited, clevertar-chat .ky-bubble-block .ky-media.ky-bottom a:visited {
+    color: #1895b4 !important;
 }
 
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:after, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg:before {
@@ -64,20 +88,14 @@ clevertar-chat .ky-wrapper .ky-content .ky-chat-wrapper .ky-chat-response {
 }
 
 /* Customer Dialog History */
-@media screen and (min-width: 320px) {
-    clevertar-chat {
-        font-size: calc(13px + 1*(100vw - 320px)/880) !important;
-    }
-}
-
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg {
-    background: #afafafe8 !important;
-    border-color: #afafaf !important;
+    background: #5f5f5fe8 !important;
+    border-color: #5f5f5f !important;
 }
 
 .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg:after, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-user .ky-msg:before {
-    border-top-color: #afafaf !important;
-    border-left-color: #afafaf !important;
+    border-top-color: #5f5f5f !important;
+    border-left-color: #5f5f5f !important;
 }
 
 .ky-classic-ocean-front clevertar-chat .ky-header {
@@ -90,7 +108,7 @@ clevertar-chat .ky-header .ky-title h1 {
 
 /* Restart Button & Header Button */
 clevertar-chat .ky-embed-mode .ky-controls button, clevertar-chat .ky-header button {
-    background-color: #c3f3c1 !important;
+    background-color: #4fd1e1 !important;
     border-color: #2a3088 !important;
     color: #2a3088 !important;
 }
