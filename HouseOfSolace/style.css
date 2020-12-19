@@ -74,10 +74,9 @@ clevertar-chat .ky-bubble-block .ky-msg{
     border-color: #244a6d !important;
 }
 
-.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:link, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:active , clevertar-chat .ky-bubble-block .ky-media.ky-bottom a {
+.ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:link, clevertar-chat .ky-bubble-block .ky-media.ky-bottom a:link, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:active, clevertar-chat .ky-bubble-block .ky-media.ky-bottom a:active {
     color: #c3f3c1 !important;
 }
-
 
 
 /* .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:link, clevertar-chat .ky-bubble-block .ky-media.ky-bottom a:link, .ky-classic-ocean-front clevertar-chat .ky-bubble-block.ky-agent .ky-msg a:active, clevertar-chat .ky-bubble-block .ky-media.ky-bottom a:active {
